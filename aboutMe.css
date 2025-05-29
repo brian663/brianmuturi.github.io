@@ -1,0 +1,173 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+nav{
+    background-color: green;
+    height: 45px;
+    position: -webkit-sticky;
+}
+.nav-list .logo{
+    color: gold;
+    font-style: italic;
+    font-weight: bold;
+   
+ 
+    
+}
+
+.nav-list{
+    display: flex;
+}
+.nav-list ul{
+    display: flex;
+    margin: auto;
+ justify-content: stretch;
+   
+}
+.nav-list ul li{
+    display: flex;
+   text-align: center;
+   align-items: center;
+    flex-wrap: nowrap;
+
+
+}
+.nav-list ul li a{
+    color: gold;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav-list ul li a:hover{
+    border-block-end: 2px solid goldenrod;
+    color: goldenrod;
+}
+.about-me{
+    display: flex;
+    max-width: 1000px;
+    background-color: rgb(2, 137, 0);
+    margin: auto;
+
+}
+
+
+
+
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 30px;
+}
+
+.profile-img {
+  width: 250px;
+  border-radius: 10px;
+  margin-right: 30px;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about-text h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #2953c8;
+}
+
+.skills {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skills li {
+  background: #007acc;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  color: #555;
+  margin-top: 20px;
+  border-left: 4px solid #007acc;
+  padding-left: 15px;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #007acc;
+  color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  ul {
+    text-align: left;
+  }
+}

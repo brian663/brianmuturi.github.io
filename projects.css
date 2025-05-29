@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: green;
+    height: 45px;
+    position: -webkit-sticky;
+}
+.nav-list .logo{
+    color: gold;
+    font-style: italic;
+    font-weight: bold;
+   
+ 
+    
+}
+
+.nav-list{
+    display: flex;
+}
+.nav-list ul{
+    display: flex;
+    margin: auto;
+ justify-content: stretch;
+   
+}
+.nav-list ul li{
+    display: flex;
+   text-align: center;
+   align-items: center;
+    flex-wrap: nowrap;
+
+
+}
+.nav-list ul li a{
+    color: gold;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav-list ul li a:hover{
+    border-block-end: 2px solid goldenrod;
+    color: goldenrod;
+}

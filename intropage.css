@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: radial-gradient(circle farthest-corner at top left ,goldenrod,greenyellow,goldenrod);
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+nav{
+    background-color: green;
+    height: 45px;
+    position: -webkit-sticky;
+}
+.nav-list .logo{
+    color: gold;
+    font-style: italic;
+    font-weight: bold;
+   
+ 
+    
+}
+
+.nav-list{
+    display: flex;
+}
+.nav-list ul{
+    display: flex;
+    margin: auto;
+ justify-content: stretch;
+   
+}
+.nav-list ul li{
+    display: flex;
+   text-align: center;
+   align-items: center;
+    flex-wrap: nowrap;
+
+
+}
+.nav-list ul li a{
+    color: gold;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav-list ul li a:hover{
+    border-block-end: 2px solid goldenrod;
+    color: goldenrod;
+}
+#heading{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding-top: 40px;
+    background-color: antiquewhite;
+   align-items: center;
+   justify-content: center;
+   
+   height: 90vh;
+
+    
+}
+#heading .heading button{
+    height: 40px;
+    width: 250px;
+    align-items: center;
+    background: #007acc;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-right: 150px;
+    padding:10px 25px;
+    text-align: center;
+    align-items: center;
+
+}
+#heading .img img{
+    justify-content: right;
+    border: 1px solid green rgb(200, 173, 19);
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 15px greenyellow;
+    border-radius: 10px;
+}
+#heading .heading p{
+    max-width: 500px;
+    padding:25px 25px;
+    list-style: circle;
+}
+#heading .heading  span{
+    color: green;
+    font-size:25px;
+    font-weight: bold;
+
+    padding:25px 25px;
+}
+#heading .heading button:hover{
+    background-color: goldenrod;
+    color: green;
+    box-shadow:  0px 0px 25px green; 
+}
+@media (max-width:600px) {
+
+    .nav-list ul li a{
+    color: gold;
+   
+    font-size:10px;
+    
+    margin-right:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    content: inherit;
+}
+#heading{
+    display: block;
+    width: 100%;
+    margin: auto; 
+}
+#heading .heading button{
+    margin: auto;
+   align-items: center;
+   justify-content: center;
+
+}
+
+
+#heading{
+    display: block;
+    margin: auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+#heading .img img{
+    width: 250px;
+    height: 250px;
+}
+}
