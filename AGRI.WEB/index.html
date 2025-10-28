@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FruitFarm Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+
+  <nav class="navbar">
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+        <h1 class="logo">FruitFarm <span>Hub</span></h1>
+        <ul class="nav-links">
+          <li><a href="#home"> Home</a></li>
+          <li><a href="#fruits"> Learn Fruits</a></li>
+          <li><a href="#shop"> Seedling Shop</a></li>
+          <li><a href="#garden"> My Garden</a></li>
+          <li><a href="#tips"> Tips</a></li>
+          <li><a href="#contact"> Contact</a></li>
+        </ul>
+  </nav>
+  <div class="hero">
+    <div class="hero-content">
+      <h2>Welcome to FruitFarm Hub</h2>
+      <p>Your one-stop destination for learning about fruits, buying seedlings, and growing your own garden.</p>
+      <button class="btn">Get Started</button>
+    </div>
+  </div>
+  <div class="stats">
+      <div class="stat">
+        <i class="fas fa-apple-alt"></i>
+        <div class="stat-item">
+          <h3>500+</h3>
+          <p>Fruit Varieties</p>
+        </div>
+      </div>
+      <div class="stat">
+        <i class="fas fa-users"></i>
+        <div class="stat-item">
+          <h3>2000+</h3>
+          <p>Happy Gardeners</p>
+        </div>
+      </div>
+      <div class="stat">
+        <i class="fas fa-seedling"></i>
+        <div class="stat-item">
+          <h3>1500+</h3>
+           <p>Seedlings Sold</p>
+        </div>
+</div>
+</div>  
+
+<div class="about">
+  <h2>About Us</h2>
+  <p>Helping farmers grow healthy fruit trees sustainably</p>
+  <div class="about-content">
+    <div class="about-image">
+      <img src="kelsey-todd-ENcI37ufNSM-unsplash.jpg" alt="About FruitFarm Hub">
+    </div>
+    <div class="about-text">
+      <h2>About FruitFarm Hub</h2>
+      <p>FruitFarm Hub is dedicated to helping you explore the world of fruits and gardening. Whether you're a beginner or an experienced gardener, we provide resources, products, and community support to help you succeed in your gardening journey.</p>
+      <button class="btn">Learn More</button>
+    </div>
+  </div>
+</div>
+
+<div class="fruits" id="fruits">
+  <h2>Popular Fruits</h2>
+    <div class="fruit-list">
+
+      <div class="fruit-item">
+        <img src="apples.jpg" alt="Apple">
+        <h3>Apple</h3>
+        <button class="btn">View Details</button>
+      </div>
+
+      <div class="fruit-item">
+        <img src="Banana.jpg" alt="Banana">
+        <h3>Banana</h3>
+        <button class="btn">View Details</button>
+      </div>
+      
+      <div class="fruit-item">
+        <img src="orange.jpg" alt="Orange">
+        <h3>Orange</h3>
+        <button class="btn">View Details</button>
+      </div>
+
+      <div class="fruit-item">
+        <img src="mango.jpg" alt="Mango">
+        <h3>Mango</h3>
+        <button class="btn">View Details</button>
+      </div>
+
+    </div>
+    <button id="btn">View All Fruits</button>
+  </div>
+
+
+  <section class="testimonials-section">
+  <h2>What Our Users Say</h2>
+  <div class="testimonials">
+    <div class="testimonial-card">
+      <p>"FruitFarm Hub has transformed my gardening experience. The resources and community support are invaluable!"</p>
+      <div class="testifier">
+        <img src="testimonial1.jpg" alt="Testifier 1">
+        <h3>- John D.</h3>
+      </div>
+
+
+      </div>  
+      <div class="testimonial-card">
+        <p>"The variety of seedlings available at FruitFarm Hub is amazing. My garden has never looked better!"</p>
+        <div class="testifier">
+          <img src="testimonial2.jpg" alt="Testifier 2">
+          <h3>- Sarah K.</h3>
+        </div>
+  </div>
+       <div class="testimonial-card">
+        <p>"I love learning about different fruits and how to grow them. FruitFarm Hub is my go-to resource!"</p>
+        <div class="testifier">
+          <img src="onehundredseventyfive-Zg0m32COaZU-unsplash.jpg" alt="Testifier 3">
+          <h3>- Mike L.</h3>
+        </div>
+       </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact <span>FruitFarm Hub</span></h2>
+  <p class="int">We’d love to hear from you! Send us a message below or reach out via social media.</p>
+
+  <div class="contact-container">
+    <!-- Contact Form -->
+    <form class="contact-form" onsubmit="return sendMessage(event)">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h3>Get in Touch</h3>
+      <p>📍 Nairobi, Kenya</p>
+      <p>📧 info@fruitfarmhub.com</p>
+      <p>📞 +254 712 345 678</p>
+
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="us">
+        <p class="logo">FruitFarm Hub</p>
+      </div>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 FruitFarm Hub. All rights reserved.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
